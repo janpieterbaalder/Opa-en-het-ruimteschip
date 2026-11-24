@@ -9,7 +9,7 @@ Formaat zoals de boeken van Daan en Bram: dicht 21 x 21 cm, open 42 x 21 cm.
 
 Uit:
 - tot-voorbij-de-sterren.pdf          bladen van 42 x 21 cm (omslag + 15 dubbele pagina's)
-- tot-voorbij-de-sterren-druk.pdf     losse pagina's 21 x 21 cm met 3 mm afloop, voor de drukker
+- Opa en het ruimteschip - drukbestand (losse pagina's).pdf   losse pagina's 21 x 21 cm met 3 mm afloop, voor de drukker
 - Tot voorbij de sterren - pagina's (PDF)/   één PDF per pagina (21 x 21 cm)
 - Tot voorbij de sterren - pagina's (PNG)/   één PNG per pagina (2480 x 2480, 300 dpi)
 - artifact/index.html + artifact/pages/  het bladerboek
@@ -347,7 +347,7 @@ def make_pdfs(pages, sheets):
         except Exception:
             pass
     doc.set_metadata({'title': TITLE + ' - drukbestand (21 x 21 cm, 3 mm afloop)', 'author': 'Voor Joah'})
-    doc.save(os.path.join(ROOT, SLUG + '-druk.pdf'), deflate=True, garbage=3)
+    doc.save(os.path.join(ROOT, TITLE + " - drukbestand (losse pagina's).pdf"), deflate=True, garbage=3)
 
 
 def page_name(n, ext):

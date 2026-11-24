@@ -12,7 +12,7 @@ externe modellen. Formaat 21 × 21 cm, 32 pagina's (voorkant, p. 1-30, achterkan
 | Bestand | Wat het is |
 |---|---|
 | `opa-en-het-ruimteschip.pdf` | Het boek als bladen van 42 × 21 cm: omslag en 15 dubbele pagina's. |
-| `opa-en-het-ruimteschip-druk.pdf` | Drukbestand: 32 losse pagina's van 21 × 21 cm met 3 mm afloop (300 dpi). |
+| `Opa en het ruimteschip - drukbestand (losse pagina's).pdf` | Voor de drukker: 32 losse pagina's van 21 × 21 cm met 3 mm afloop rondom (216 × 216 mm, 300 dpi, snijlijn als TrimBox), in leesvolgorde: voorkant, p. 1-30, achterkant. |
 | `Opa en het ruimteschip - pagina's (PDF)/` | Eén PDF per pagina. |
 | `Opa en het ruimteschip - pagina's (PNG)/` | Eén PNG per pagina (2480 × 2480, 300 dpi), bijvoorbeeld voor een fotoboek. |
 | `web/` | Het online bladerboek: https://opa-en-het-ruimteschip.vercel.app (Vercel-project `opa-en-het-ruimteschip-web`, map `web`; elke push naar `main` publiceert opnieuw). |
