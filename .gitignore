@@ -1,0 +1,12 @@
+# tussenresultaten, proefrenders en controles
+work/
+artifact/
+__pycache__/
+*.pyc
+*.log
+*.blend
+*.blend1
+.playwright-mcp/
+.vercel
+# de losse PNG-pagina's zijn groot en worden door boek/build.py opnieuw gemaakt
+Opa en het ruimteschip - pagina's (PNG)/
