@@ -15,7 +15,7 @@ externe modellen. Formaat 21 × 21 cm, 32 pagina's (voorkant, p. 1-30, achterkan
 | `opa-en-het-ruimteschip-druk.pdf` | Drukbestand: 32 losse pagina's van 21 × 21 cm met 3 mm afloop (300 dpi). |
 | `Opa en het ruimteschip - pagina's (PDF)/` | Eén PDF per pagina. |
 | `Opa en het ruimteschip - pagina's (PNG)/` | Eén PNG per pagina (2480 × 2480, 300 dpi), bijvoorbeeld voor een fotoboek. |
-| `artifact/`, `web/` | Het online bladerboek: https://claude.ai/artifact/7aydG1exJkusUE5bi6mXWD |
+| `web/` | Het online bladerboek: https://opa-en-het-ruimteschip.vercel.app (Vercel-project `opa-en-het-ruimteschip-web`, map `web`; elke push naar `main` publiceert opnieuw). |
 | `storyboard.jpg` | Alle bladen op een rij met beeld en tekst. |
 | `verhaal.md` | De tekst per pagina en het idee voor het schip. |
 | `voorwerpen.md` | Voorraadlijst van ~500 kleine alledaagse voorwerpen als bouwstenen. |
@@ -28,6 +28,7 @@ python blender/maak_tex.py                                         # etiketten, 
 blender/r.sh sp03_werkplaats work/test.png --w 1260                # één plaat (snelle proef)
 SAMPLES=160 blender/batch.sh mid renders $(cat blender/alle_platen.txt)   # alle platen
 python boek/build.py                                               # PDF's, losse pagina's, bladerboek, storyboard
+git add -A && git commit -m "..." && git push                        # bladerboek online bijwerken
 ```
 
 - `blender/lib/hout.py`: procedureel hout (jaarringen, nerf, poriën, multiplexranden), verf over hout,
